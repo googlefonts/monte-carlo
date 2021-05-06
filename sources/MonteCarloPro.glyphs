@@ -53,7 +53,9 @@ DisplayStrings = (
 "w/wacute",
 "/tcedilla",
 "Á/Abreve ÂÀÄ/Amacron/Aogonek ÅÃ/AEacute/Cacute/Ccaron Ç/Ccircumflex/Cdotaccent/Dcaron/Dcroat É/Ebreve/Ecaron ÊË/Edotaccent È/Emacron/Eogonek/Gbreve/Gcircumflex/Gcommaaccent/Gdotaccent/Hbar/Hcircumflex Í/Ibreve ÎÏ/Idotaccent Ì/Imacron/Iogonek/Itilde/Jcircumflex/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Ldot/Nacute/Ncaron/Ncommaaccent ÑÓ/Obreve ÔÖÒ/Ohungarumlaut/Omacron/Oslashacute Õ/Racute/Rcaron/Rcommaaccent/Sacute/Scedilla/Scircumflex/Scommaaccent/Tbar/Tcaron/Tcommaaccent Ú/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring/Utilde/Wacute/Wcircumflex/Wdieresis/Wgrave/Ycircumflex/Ygrave/Zacute/Zdotaccent á/abreve âäà/amacron/aogonek åã/aeacute/cacute/ccaron ç/ccircumflex/cdotaccent d/dcaron é/dcroat/ebreve/ecaron êë/edotaccent è/emacron/eogonek/gbreve/gcircumflex/gcommaaccent/gdotaccent/hbar/hcircumflex í/ibreve îïì/imacron/iogonek/itilde/ij/jcircumflex/kcommaaccent/kgreenlandic/lacute/lcaron/lcommaaccent/ldot/nacute/napostrophe/ncaron/ncommaaccent ñó/obreve ôöò/ohungarumlaut/omacron/oslashacute õ/racute/rcaron/rcommaaccent úùûü/sacute/scedilla/tcaron/zacute/zdotaccent/uring/uhungarumlaut ¤/ubreve/scircumflex/tbar/uogonek/utilde/umacron/Eng/eng/MonteCarlo/MonteCarlo.1/end4 Ðð/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adotbelow/Ahookabove/circumflexcomb/circumflexcomb_acutecomb/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/Edotbelow/Ehookabove/Etilde/Idotbelow/Ihookabove/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odotbelow/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Germandbls/Tcedilla/Udotbelow/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Ydotbelow/Yhookabove/Ytilde/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adotbelow/ahookabove/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde/edotbelow/ehookabove/etilde/idotless/idotbelow/ihookabove/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odotbelow/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/tcedilla/udotbelow/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/wacute/wcircumflex/wdieresis/wgrave/ycircumflex/ydotbelow/ygrave/yhookabove/ytilde",
-"/divisionslash"
+"/divisionslash",
+"ø",
+"Ø"
 );
 copyright = "\\u00C2 \\u00A9 2011 by Robert E. Leuschke. All rights reserved.";
 customParameters = (
@@ -16548,13 +16550,22 @@ unicode = 2126;
 },
 {
 glyphname = oslash;
-lastChange = "2021-05-06 18:19:23 +0000";
+lastChange = "2021-05-06 18:50:17 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
 position = "{265, 331}";
+}
+);
+components = (
+{
+name = o;
+},
+{
+name = slash;
+transform = "{0.70489, 0, 0, 0.70744, 18, -23}";
 }
 );
 hints = (
@@ -16569,141 +16580,6 @@ type = Stem;
 }
 );
 layerId = "23C1765D-E8A9-427D-A2B9-D2B95394C525";
-paths = (
-{
-closed = 1;
-nodes = (
-"468 209 OFFCURVE",
-"452 200 OFFCURVE",
-"444 183 CURVE SMOOTH",
-"435 163 OFFCURVE",
-"417 131 OFFCURVE",
-"395 113 CURVE SMOOTH",
-"383 102 OFFCURVE",
-"368 98 OFFCURVE",
-"354 99 CURVE SMOOTH",
-"346 100 OFFCURVE",
-"337 105 OFFCURVE",
-"331 112 CURVE",
-"330 114 OFFCURVE",
-"327 116 OFFCURVE",
-"326 118 CURVE",
-"338 143 OFFCURVE",
-"347 169 OFFCURVE",
-"351 195 CURVE SMOOTH",
-"358 237 OFFCURVE",
-"354 276 OFFCURVE",
-"332 301 CURVE",
-"391 377 LINE",
-"371 377 LINE",
-"321 311 LINE",
-"307 323 OFFCURVE",
-"286 330 OFFCURVE",
-"259 330 CURVE SMOOTH",
-"185 330 OFFCURVE",
-"134 273 OFFCURVE",
-"99 208 CURVE SMOOTH",
-"87 185 OFFCURVE",
-"75 156 OFFCURVE",
-"68 127 CURVE SMOOTH",
-"55 69 OFFCURVE",
-"65 30 OFFCURVE",
-"88 6 CURVE",
-"14 -88 LINE",
-"34 -88 LINE",
-"99 -3 LINE",
-"133 -27 OFFCURVE",
-"185 -25 OFFCURVE",
-"229 2 CURVE SMOOTH",
-"253 17 OFFCURVE",
-"273 38 OFFCURVE",
-"290 59 CURVE SMOOTH",
-"301 73 OFFCURVE",
-"310 88 OFFCURVE",
-"319 104 CURVE",
-"320 102 OFFCURVE",
-"321 100 OFFCURVE",
-"323 99 CURVE",
-"332 91 OFFCURVE",
-"343 87 OFFCURVE",
-"354 86 CURVE SMOOTH",
-"371 85 OFFCURVE",
-"388 91 OFFCURVE",
-"401 101 CURVE SMOOTH",
-"427 122 OFFCURVE",
-"445 158 OFFCURVE",
-"456 183 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"339 178 OFFCURVE",
-"331 145 OFFCURVE",
-"320 130 CURVE",
-"317 139 LINE",
-"309 121 LINE",
-"309 119 LINE",
-"298 98 OFFCURVE",
-"285 77 OFFCURVE",
-"269 58 CURVE SMOOTH",
-"236 21 OFFCURVE",
-"193 -8 OFFCURVE",
-"159 -8 CURVE SMOOTH",
-"141 -8 OFFCURVE",
-"126 1 OFFCURVE",
-"117 20 CURVE",
-"324 290 LINE",
-"330 282 OFFCURVE",
-"333 273 OFFCURVE",
-"336 263 CURVE",
-"340 258 LINE",
-"346 246 OFFCURVE",
-"352 231 OFFCURVE",
-"344 200 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"112 38 LINE",
-"106 69 OFFCURVE",
-"115 114 OFFCURVE",
-"143 175 CURVE SMOOTH",
-"162 216 OFFCURVE",
-"223 310 OFFCURVE",
-"277 311 CURVE SMOOTH",
-"292 311 OFFCURVE",
-"303 307 OFFCURVE",
-"313 300 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"342 234 OFFCURVE",
-"339 194 OFFCURVE",
-"325 159 CURVE SMOOTH",
-"317 139 LINE",
-"315 146 OFFCURVE",
-"314 154 OFFCURVE",
-"314 160 CURVE SMOOTH",
-"314 174 OFFCURVE",
-"304 170 OFFCURVE",
-"303 153 CURVE SMOOTH",
-"303 141 OFFCURVE",
-"304 130 OFFCURVE",
-"309 121 CURVE",
-"308 121 LINE",
-"291 126 OFFCURVE",
-"279 178 OFFCURVE",
-"293 222 CURVE SMOOTH",
-"301 247 OFFCURVE",
-"323 271 OFFCURVE",
-"336 263 CURVE"
-);
-}
-);
 width = 348;
 }
 );
@@ -99533,7 +99409,7 @@ unicode = 014D;
 },
 {
 glyphname = oslashacute;
-lastChange = "2021-05-06 18:19:23 +0000";
+lastChange = "2021-05-06 18:50:36 +0000";
 layers = (
 {
 components = (
@@ -107702,7 +107578,6 @@ d.8 = -56;
 d.9 = -56;
 dcaron = -56;
 dcroat = -56;
-idotless = -42;
 e = -94;
 h = -52;
 i = -42;
@@ -107714,6 +107589,7 @@ iacute = -42;
 ibreve = -42;
 icircumflex = -42;
 idieresis = -42;
+idotless = -42;
 igrave = -42;
 imacron = -42;
 iogonek = -42;
@@ -107897,7 +107773,6 @@ d.8 = 21;
 d.9 = 21;
 dcaron = 21;
 dcroat = 21;
-idotless = 35;
 i = 35;
 i.3 = 35;
 i.4 = 35;
@@ -107907,6 +107782,7 @@ iacute = 35;
 ibreve = 35;
 icircumflex = 35;
 idieresis = 35;
+idotless = 35;
 igrave = 35;
 imacron = 35;
 iogonek = 35;
@@ -108890,7 +108766,6 @@ d.8 = -76;
 d.9 = -76;
 dcaron = -76;
 dcroat = -76;
-idotless = -132;
 e = -111;
 f = -170;
 g = -128;
@@ -108904,6 +108779,7 @@ iacute = -132;
 ibreve = -132;
 icircumflex = -132;
 idieresis = -132;
+idotless = -132;
 igrave = -132;
 imacron = -132;
 iogonek = -132;
