@@ -19,7 +19,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2011 The Italianno Project Authors (https://github.com/googlefonts/italianno)";
+copyright = "Copyright 2011 The MonteCarlo Project Authors (https://github.com/googlefonts/monte-carlo)";
 customParameters = (
 {
 name = licenseURL;
@@ -205123,5 +205123,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 10;
 }
